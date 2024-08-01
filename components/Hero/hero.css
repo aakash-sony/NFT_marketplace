@@ -1,0 +1,23 @@
+/* Add styles for the hero section here */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+.hero-content {
+  max-width: 50%;
+}
+.hero-image {
+  position: relative;
+}
+.hero-image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.hero .info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
